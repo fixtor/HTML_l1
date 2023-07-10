@@ -1,46 +1,43 @@
 /* styles.css */
 
-body { 
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #f2f2f2;
-    padding: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    display: block;
-    padding: 10px;
+a {
     text-decoration: none;
-    color: #333;
+
 }
 
-.product {
-    margin-bottom: 20px;
+.menu-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
 }
 
-.product img {
-    width: 200px;
-    height: auto;
+h1.title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
 }
 
-.product h3 {
-    margin-top: 10px;
+p.paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
 }
 
-.product p {
-    margin-bottom: 10px;
+h2.subtitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+h3.info {
+    color: rgb(43, 141, 67);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
 }
